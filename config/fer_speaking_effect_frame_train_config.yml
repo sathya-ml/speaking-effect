@@ -1,0 +1,23 @@
+data_dir: "Directory containing preprocessed RAVDESS features"
+model_save_path: "Path to save the trained frame-based model"
+logging_output: "Path to save training logs for frame-based model"
+
+test_actors: [5, 15, 18]
+
+# possible values: ["face", "emotion"]
+face_modality: "emotion"
+# face_modality: "face"
+
+batch_size: 32
+
+# 512, modality emotion
+feature_len: 512
+# 2048, modality face
+# feature_len: 2048
+
+num_channels: 1
+num_classes: 7
+dense_dropout: 0.5
+learning_rate: 0.001
+epochs: 50
+

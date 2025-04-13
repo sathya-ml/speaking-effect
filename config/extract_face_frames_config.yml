@@ -1,0 +1,11 @@
+downsample_rate: 8
+video_folder: "Path to root directory containing RAVDESS video dataset"
+video_extensions: [
+  "mp4"
+]
+input_dims: [
+  224, 224
+]
+save_path: "Path to store extracted face frames for each actor in pickle format"
+dest_frame_rate: 25
+temp_folder: "Path to temporary working directory"

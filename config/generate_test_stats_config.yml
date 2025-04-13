@@ -1,0 +1,9 @@
+model_dir: "Directory containing trained models"
+save_path: "Path to save speaking effect test statistics"
+performances_save_path: "Path to save model performance metrics"
+
+frames_list : [
+  5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65
+]
+test_actors: [5, 15, 18]
+data_dir: "Directory containing preprocessed RAVDESS features"

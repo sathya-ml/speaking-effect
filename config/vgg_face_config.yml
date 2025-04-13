@@ -1,0 +1,6 @@
+model_name: "senet50"
+# the output of GlobalAveragePooling2D
+layer_name: "flatten_1"
+
+extracted_faces_path: "Directory containing extracted face frames"
+save_path: "Path to save extracted VGG face features"

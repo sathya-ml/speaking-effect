@@ -1,0 +1,19 @@
+# lipnet resources
+lipnet_model_weights_path: "Path to pre-trained LipNet model weights"
+lipnet_feature_output_layer_name: "pool_3"
+dlib_model_path: "Path to facial landmarks predictor model"
+
+# data and path params
+video_folder: "Path to RAVDESS video dataset"
+video_extensions: [
+  "mp4"
+]
+temp_folder: "Path to temporary working directory"
+dest_frame_rate: 25
+save_path: "Path to save extracted LipNet features"
+
+# lipnet config -> DON'T CHANGE THE FOLLOWING!
+image_width: 100
+image_height: 50
+image_channels: 3
+max_string: 32

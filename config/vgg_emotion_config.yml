@@ -1,0 +1,4 @@
+model_name: "GitHubModel"
+model_path: "Path to pre-trained emotion recognition model weights"
+extracted_faces_path: "Directory containing extracted face frames"
+save_path: "Path to save extracted VGG emotion features"

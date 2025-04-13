@@ -1,0 +1,23 @@
+data_dir: "Directory containing preprocessed RAVDESS features"
+model_save_path: "Path to save the trained GRU model with lip features"
+logging_output: "Path to save training logs for lip-based GRU model"
+
+test_actors: [5, 15, 18]
+
+# possible values: ["face", "emotion"]
+face_modality: "emotion"
+# face_modality: "face"
+
+num_frames: 60
+batch_size: 32
+
+# 512 + 96, for modality EMOTION
+feature_len: 608
+# 20148 + 96, for modality FACE
+# feature_len: 2144
+
+num_channels: 1
+num_classes: 7
+gru_dropout_rate: 0.5
+learning_rate: 0.001
+epochs: 50

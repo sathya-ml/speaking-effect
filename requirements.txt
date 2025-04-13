@@ -1,0 +1,20 @@
+# PY
+pyyaml
+
+#IMG
+opencv-python
+Pillow
+imutils
+sk-video
+
+# ML
+dlib
+scikit-learn
+scipy
+pandas
+keras_vggface
+mtcnn
+tensorflow==2.1.0
+
+torch
+torchvision

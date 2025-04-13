@@ -1,0 +1,23 @@
+data_dir: "Directory containing preprocessed RAVDESS features"
+model_save_path: "Path to save the trained CNN model weights"
+logging_output: "Path to save training logs in CSV format"
+
+test_actors: [5, 15, 18]
+
+# possible values: ["face", "emotion"]
+face_modality: "emotion"
+# face_modality: "face"
+
+num_frames: 60
+batch_size: 32
+
+# 512, for modality EMOTION
+feature_len: 512
+# 2048, for modality FACE
+# feature_len: 2048
+
+num_channels: 1
+num_classes: 7
+conv_dropout_rate: 0.15
+learning_rate: 0.001
+epochs: 50
